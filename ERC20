@@ -1,0 +1,17 @@
+//SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+import "./IERC20Metadata.sol";
+import "./IERC20.sol";
+import "@openzeppelin/contracts/utils/Context.sol";
+
+contract ERC20 is Context , IERC20, IERC20Metadata{
+    uint256 private totalSupply;
+    string private name;
+    string private symbol;
+
+    constructor (string memory name_, string memory symbol_){
+        name = name_;
+        symbol = symbol_;
+    }
+}
