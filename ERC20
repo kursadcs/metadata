@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "./IERC20Metadata.sol";
+import "https://github.com/kursadcs/metadata/blob/2d478c0eabcd05e52596bbfbffe36994a2ccfc59/IERC20Metadata";
 import "https://github.com/kursadcs/metadata/blob/081f82ef2a6ae59060bfc3b04a2ba3f1518301dc/IERC20";
 import "@openzeppelin/contracts/utils/Context.sol";
 
