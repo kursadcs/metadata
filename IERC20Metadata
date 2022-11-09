@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import "./IERC20.sol";
+import "https://github.com/kursadcs/metadata/blob/081f82ef2a6ae59060bfc3b04a2ba3f1518301dc/IERC20";
 
 interface IERC20Metadata is IERC20{
     function name() external view returns(string memory);
